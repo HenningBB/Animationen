@@ -1,0 +1,113 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.animationContainer{
+    height: 100px;
+    width: 485px;
+    background-color: pink;
+    display: inline-block;
+}
+
+.rounddiv{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position:absolute;
+    border-radius: 100%;
+    top: 45px;
+    left: 45px;
+}
+
+#rdiv0{
+    transform:  translateX(-30px);
+    
+}
+#rdiv1{
+    transform:  translateX(0px);
+    animation-delay: 0.25s;
+}
+#rdiv2{
+    transform: translateX(30px);
+    animation-delay: 0.5s;
+}
+#rdiv3{
+    transform:  translateX(60px);
+    animation-delay: 0.75s;
+}
+#rdiv4{
+    transform: translateX(90px);
+    animation-delay: 1s;
+}
+#rdiv5{
+    transform:  translateX(120px);
+    animation-delay: 1.25s;
+}
+#rdiv6{
+    transform: translateX(150px);
+    animation-delay: 1.5s;
+}
+#rdiv7{
+    transform:  translateX(180px);
+    animation-delay: 1.75s;
+}
+#rdiv8{
+    transform: translateX(210px);
+    animation-delay: 2s;
+}
+#rdiv9{
+    transform: translateX(240px);
+    animation-delay: 2.25s;
+}
+#rdiv10{
+    transform: translateX(270px);
+    animation-delay: 2.5s;
+}
+#rdiv11{
+    transform: translateX(300px);
+    animation-delay: 2.75s;
+}
+#rdiv12{
+    transform:  translateX(330px);
+    animation-delay: 3s;
+}
+#rdiv13{
+    transform: translateX(360px);
+    animation-delay: 3.25s;
+}
+#rdiv14{
+    transform: translateX(390px);
+    animation-delay: 3.5s;
+}
+#rdiv15{
+    transform: translateX(420px);
+    animation-delay: 3.75s;
+}
+
+.animationContainer:hover > div{
+    animation-name: changesize;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changesize{
+    from{
+        background-color: blue;
+    }
+    20%{
+        background-color: red;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: blue;
+    }
+    to{
+        background-color: blue;
+    }
+}
