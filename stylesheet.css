@@ -87,7 +87,7 @@ html,body{
 
 .animationContainer:hover > div{
     animation-name: changesize;
-    animation-duration: 3.2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
@@ -95,17 +95,16 @@ html,body{
     from{
         background-color: blue;
     }
-    20%{
+    25%{
         background-color: red;
+        transform: translateY(30px);
     }
-    40%{
+    50%{
         background-color: yellow;
     }
-    60%{
+    75%{
         background-color: green;
-    }
-    80%{
-        background-color: blue;
+        transform: translateY(-30px);
     }
     to{
         background-color: blue;
