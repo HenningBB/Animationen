@@ -19,6 +19,24 @@ html,body{
     top: 45px;
     left: 45px;
 }
+.rounddive{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position:absolute;
+    border-radius: 100%;
+    top: 45px;
+    left: 15px;
+}
+.rounddiver{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position:absolute;
+    border-radius: 100%;
+    top: 45px;
+    left: 75px;
+}
 
 #rdiv0{
     transform:  translateY(-30px);
@@ -86,7 +104,7 @@ html,body{
 
 .animationContainer:hover > div{
     animation-name: changesize;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
 
